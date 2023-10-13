@@ -1,12 +1,12 @@
 # ItemRec
 
-ItemRec(Item Perspective Recommendation) is a re-ranking framework which enables items "select" users.  Our experiments is conducted based on [RecBole](https://github.com/RUCAIBox/RecBole).
+ItemRec(Item Perspective Recommendation) is a re-ranking framework which enables items "select" users.  Our experiments are conducted based on [RecBole](https://github.com/RUCAIBox/RecBole).
 
 
 
 ## Train
 
-For instance, the following instruction represents that training the model ENMF model on dataset MovieLens-1M.
+For instance, the following instruction represents that training the model ENMF model on MovieLens-1M.
 
 ```
 python run_recbole.py --model ENMF --dataset ml-1m
